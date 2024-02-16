@@ -32,5 +32,12 @@ ShortURL is a link shortening application that provides a REST API for shortenin
 
 ```json
 {
-  ![Screenshot from 2024-02-16 10-28-11](https://github.com/GabJS10/ShortURL/assets/128757585/26ccb29c-dd29-4377-9db6-4889bbabc73b)
+  "id": 1,
+  "urlId": "abc123",
+  "urlOriginal": "https://www.example.com/long/path/to/a/resource",
+  "urlShort": "http://localhost:3000/abc123",
+  "clickCount": 0,
+  "qrImage": "http://localhost:3000/media/abc123.png",
+  "createdAt": "2024-02-16T12:00:00.000Z",
+  "updatedAt": "2024-02-16T12:00:00.000Z"
 }
